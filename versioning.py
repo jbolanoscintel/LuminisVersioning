@@ -14,7 +14,7 @@ def get_version(soup):
             result = element.text
 
     if result == "":
-        raise ValueError('Current application Version not found')
+        raise ValueError('Current application version not found')
 
     return result
 
